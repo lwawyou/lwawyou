@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    margin: 0;
+    line-height: inherit!important;
+}
+
+
+/* logo-img */
+
+span.logo>img {
+    width: 120px;
+}
+
+span.logo {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+
+/* site-container */
+
+div.site-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* site-nav */
+
+nav.site-nav {
+    margin: 0;
+    padding: 15px;
+    color: white;
+    background-color: rgba(29, 29, 33, 0.6);
+}
+
+nav.site-nav>ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: initial;
+}
+
+nav.site-nav>ul>li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav.site-nav>ul>li>a {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.8px;
+    font-size: 13px;
+}
+
+nav.site-nav>ul>li>a>i:before {
+    padding-right: 2px;
+}
+
+nav.site-nav>ul>li>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -8px;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav.site-nav>ul>li>a:hover {}
+
+nav.site-nav>ul>li>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+nav.site-nav>ul>li>a:link,
+nav.site-nav>ul>li>a:visited {
+    color: white;
+}
+
+
+/* site-body */
+
+.site-body {}
+
+.site-body>.panel {
+    border: 1px solid;
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+}
+
+.site-body>.panel>h2 {
+    top: 0;
+}
+
+
+/* custom styles */
+
+.to-left {
+    float: left;
+}
+
+.to-right {
+    float: right;
+}
