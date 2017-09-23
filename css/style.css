@@ -108,6 +108,58 @@ nav.site-nav>ul>li>a:visited {
 }
 
 
+/* site-body-header */
+
+.site-body>.site-body-header {
+    max-height: 400px!important;
+}
+
+.site-body>.site-body-header img {
+    height: -webkit-fill-available;
+    object-fit: cover;
+    width: 100%;
+}
+
+.site-body>.site-body-header i.fa {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    z-index: 5;
+    display: inline-block
+}
+
+
+/* site-body-content */
+
+.site-body>.site-body-content {
+    padding: 10px;
+    border: 1px solid;
+    min-height: 500px;
+    background-color: #f3e4e4;
+}
+
+
+/* profile-header */
+
+.site-body>.site-body-content>.profile-header {
+    margin-top: -150px;
+    margin-left: 100px;
+}
+
+.site-body>.site-body-content>.profile-header img {
+    max-width: 200px;
+    position: absolute;
+}
+
+
+/* profile-body */
+
+.site-body>.site-body-content>.profile-body {
+    margin-top: 250px;
+    position: relative;
+}
+
+
 /* custom styles */
 
 .to-left {
