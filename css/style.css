@@ -137,14 +137,13 @@ nav.site-nav>ul>li>a:visited {
     padding: 10px 0px;
     /* border: 1px solid; */
     min-height: 500px;
+    color: white;
 }
 
 
 /* profile-content */
 
-.profile-content {
-    background-color: rgba(29, 29, 33, 0.4);
-}
+.profile-content {}
 
 
 /* profile-header */
@@ -165,7 +164,7 @@ nav.site-nav>ul>li>a:visited {
 .site-body>.site-body-content .profile-body {
     margin-top: 220px;
     position: relative;
-    color: white;
+    /* color: white; */
 }
 
 .site-body>.site-body-content .profile-body .name {
@@ -182,8 +181,36 @@ nav.site-nav>ul>li>a:visited {
     line-height: 1.5;
 }
 
+.site-body>.site-body-content .hobbies-content img {
+    width: 180%;
+    margin-top: -280px;
+    margin-left: -50px
+}
+
+
+/* site-footer */
+
+.site-footer {
+    margin: 0;
+    padding: 15px;
+    color: white;
+    background-color: rgba(29, 29, 33, 0.9);
+    border-top: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
 
 /* custom styles */
+
+.bg-body {
+    background-color: rgba(29, 29, 33, 0.4);
+}
+
+.row-custom {
+    width: 100%;
+    display: -webkit-box;
+    margin-bottom: 10px;
+}
 
 .to-left {
     float: left;
