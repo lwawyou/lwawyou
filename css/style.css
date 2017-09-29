@@ -206,6 +206,24 @@ nav.site-nav>ul>li>a:visited {
 
 /* custom styles */
 
+.gallery {
+    height: 150px;
+}
+
+.gallery>.content {
+    display: block;
+    padding: 20px;
+    height: 150px;
+}
+
+.gallery>.content:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery img {
+    width: 180px;
+}
+
 .bg-body {
     background-color: rgba(29, 29, 33, 0.4);
 }
@@ -216,6 +234,10 @@ nav.site-nav>ul>li>a:visited {
 
 .p {
     padding: 0;
+}
+
+.p-l {
+    padding: 0px 0px 0px 10px;
 }
 
 .row-custom {
