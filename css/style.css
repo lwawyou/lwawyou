@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
 body {
     font-family: 'Work Sans', sans-serif;
-    background-image: url(../img/background-1.jpg);
     /* background-size: cover; */
     margin: 0;
     line-height: inherit!important;
 }
-
-
+:root{
+    --bg-image: url(../img/background-1.jpg);;
+}
 /* logo-img */
 
 span.logo>img {
@@ -39,6 +39,7 @@ nav.site-nav {
     background-color: rgba(29, 29, 33, 0.7);
     border-bottom: 2px solid rgb(255, 255, 255);
     box-shadow: 0px 0px 100px black;
+    background-image: var(--bg-image);
 }
 
 nav.site-nav>ul {
@@ -197,6 +198,7 @@ nav.site-nav>ul>li>a:visited {
     border-top: 2px solid rgb(255, 255, 255);
     text-align: center;
     font-size: 12px;
+    background-image: var(--bg-image);
 }
 
 .programming img {
@@ -226,6 +228,7 @@ nav.site-nav>ul>li>a:visited {
 
 .bg-body {
     background-color: rgba(29, 29, 33, 0.4);
+    background-image: var(--bg-image);
 }
 
 .m {
