@@ -6,9 +6,13 @@ body {
     margin: 0;
     line-height: inherit!important;
 }
-:root{
-    --bg-image: url(../img/background-1.jpg);;
+
+:root {
+    --bg-image: url(../img/background-1.jpg);
+    ;
 }
+
+
 /* logo-img */
 
 span.logo>img {
@@ -203,6 +207,20 @@ nav.site-nav>ul>li>a:visited {
 
 .programming img {
     max-width: 220px;
+}
+
+
+/* animation styles */
+
+.animate-right {
+    transform: translateX(700px);
+    opacity: 0;
+    transition: transform 500ms linear, opacity 2s;
+}
+
+.animate-right.in-view {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 
